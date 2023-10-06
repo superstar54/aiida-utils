@@ -1,0 +1,13 @@
+---
+label: qe-7.2-pw
+description: Quantum Espresso from Conda
+input_plugin: quantumespresso.pw
+on_computer: true
+remote_abs_path: /home/wang_x3/apps/miniconda3/envs/qe-7.2/bin/pw.x
+prepend_text: |
+
+    eval "$(conda shell.posix hook)"
+    conda activate qe-7.2
+
+    export OMP_NUM_THREADS=1
+append_text: ' '
