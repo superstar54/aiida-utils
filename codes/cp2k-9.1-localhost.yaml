@@ -1,9 +1,9 @@
 ---
 label: cp2k-psmp-9.1
 description: CP2k from Conda
-input_plugin: cp2k
-on_computer: true
-remote_abs_path: /home/wang_x3/apps/miniconda3/envs/cp2k-9.1/bin/cp2k.psmp
+default_calc_job_plugin: cp2k
+computer: localhost
+filepath_executable: /home/wang_x3/apps/miniconda3/envs/cp2k-9.1/bin/cp2k.psmp
 prepend_text: |
     conda activate cp2k-9.1
 

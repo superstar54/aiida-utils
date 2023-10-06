@@ -1,10 +1,11 @@
 ---
-label: qe-7.2-projwfc
+label: qe-7.2-pp
 description: Quantum Espresso from Conda
-default_calc_job_plugin: quantumespresso.projwfc
+default_calc_job_plugin: quantumespresso.pp
 computer: localhost
-filepath_executable: /home/wang_x3/apps/miniconda3/envs/qe-7.2/bin/projwfc.x
+filepath_executable: /home/wang_x3/apps/miniconda3/envs/qe-7.2/bin/pp.x
 prepend_text: |
+
     eval "$(conda shell.posix hook)"
     conda activate qe-7.2
 

@@ -10,5 +10,5 @@ conda install -c conda-forge cp2k
 
 ## create code from yaml
 ```
-verdi code create core.code.installed --config pw-7.0-eiger.yaml
+verdi code create core.code.installed --config pw-7.2-localhost.yaml
 ```

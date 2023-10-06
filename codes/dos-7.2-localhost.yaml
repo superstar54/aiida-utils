@@ -1,9 +1,9 @@
 ---
 label: qe-7.2-dos
 description: Quantum Espresso from Conda
-input_plugin: quantumespresso.dos
-on_computer: true
-remote_abs_path: /home/wang_x3/apps/miniconda3/envs/qe-7.2/bin/dos.x
+default_calc_job_plugin: quantumespresso.dos
+computer: localhost
+filepath_executable: /home/wang_x3/apps/miniconda3/envs/qe-7.2/bin/dos.x
 prepend_text: |
 
     eval "$(conda shell.posix hook)"
