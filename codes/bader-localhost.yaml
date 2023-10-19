@@ -1,0 +1,10 @@
+---
+label: bader
+description: Bader charge analysis
+default_calc_job_plugin: bader
+computer: localhost
+filepath_executable: /home/wang_x3//bin/bader
+prepend_text: |
+
+    export OMP_NUM_THREADS=1
+append_text: ' '
