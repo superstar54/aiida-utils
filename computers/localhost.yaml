@@ -1,0 +1,13 @@
+---
+label: localhost
+hostname: localhost
+description: This is localhost.
+transport: core.local
+scheduler: core.direct
+work_dir: /home/xing/data/aiida_work/aiida
+shebang: '#!/bin/bash'
+mpirun_command: srun -n {tot_num_mpiprocs}
+mpiprocs_per_machine: 1
+use_double_quotes: N
+prepend_text: ''
+append_text: ''
