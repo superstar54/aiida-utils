@@ -1,0 +1,10 @@
+---
+label: supercell
+description: Supercell program for generating supercells for dislocation calculations
+default_calc_job_plugin: supercell
+computer: localhost
+filepath_executable: /home/wang_x3//bin/supercell
+prepend_text: |
+
+    export OMP_NUM_THREADS=1
+append_text: ' '
