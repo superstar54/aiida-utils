@@ -1,9 +1,9 @@
 ---
 label: cp2k-psmp-9.1
 description: CP2K v9.1 Compiled with cpeGNU 22.05
-input_plugin: cp2k
-on_computer: true
-remote_abs_path: /apps/pilatus/UES/jenkins/1.4.0/software/CP2K/9.1-cpeGNU-22.05/bin/cp2k.psmp
+default_calc_job_plugin: cp2k
+computer: 'eiger'
+filepath_executable: /capstor/apps/cscs/eiger/easybuild/software/CP2K/9.1-cpeGNU-22.05/bin/cp2k.psmp
 prepend_text: |
     module load cray/22.05  cpeGNU/22.05
     module load CP2K/9.1
